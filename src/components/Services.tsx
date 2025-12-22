@@ -4,7 +4,7 @@ export default function Services() {
   const services = [
     {
       icon: Receipt,
-      title: 'AP Automation',
+      title: 'AP Optimization',
       description: 'Streamline invoice processing with AI-powered data extraction, validation, and approval workflows.',
       features: ['Invoice Scanning', 'Auto-matching', 'Payment Scheduling'],
     },
