@@ -194,7 +194,6 @@ export default function Contact() {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  </div>
                 </div>
               </div>
             </div>
