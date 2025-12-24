@@ -187,22 +187,13 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Phone</h4>
-                    <a href="tel:+18005551234" className="text-gray-600 hover:text-blue-600 transition-colors">
-                      +1 (800) 555-1234
+                    <a href="tel:+16108643775" className="text-gray-600 hover:text-blue-600 transition-colors">
+                      +1 (610) 864-3775
                     </a>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 h-12 w-12 bg-slate-100 rounded-lg flex items-center justify-center">
-                    <MapPin className="h-6 w-6 text-slate-600" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900 mb-1">Location</h4>
-                    <p className="text-gray-600">
-                      123 Financial District<br />
-                      New York, NY 10004
-                    </p>
                   </div>
                 </div>
               </div>
@@ -211,7 +202,7 @@ export default function Contact() {
             <div className="bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl p-8 shadow-md text-white">
               <h3 className="text-2xl font-bold mb-4">Schedule a Demo</h3>
               <p className="mb-6 text-blue-100 leading-relaxed">
-                See our AI-powered solutions in action. Book a personalized demo with our team to discover how we can transform your financial operations.
+                Book a personalized demo with our team to discover how we can transform your financial operations.
               </p>
               <button className="px-6 py-3 bg-white text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition-colors">
                 Book a Demo
