@@ -13,6 +13,7 @@ export default function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
 
+  const calendlyUrl = 'https://calendly.com/arpita-agarwal2';
  const handleSubmit = async (e: React.FormEvent) => {
   e.preventDefault();
   setIsSubmitting(true);
@@ -198,13 +199,20 @@ export default function Contact() {
             </div>
 
             <div className="bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl p-8 shadow-md text-white">
-              <h3 className="text-2xl font-bold mb-4">Schedule a Demo</h3>
+              <h3 className="text-2xl font-bold mb-4">Book a Free Discovery Session</h3>
               <p className="mb-6 text-blue-100 leading-relaxed">
-                Book a personalized demo with our team to discover how we can transform your financial operations.
+                Let’s understand your bookkeeping, AR/AP, and reporting needs. In a 20–30 minute call, we’ll map your current
+                process, pain points, and the right next steps.
               </p>
-              <button className="px-6 py-3 bg-white text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition-colors">
-                Book a Demo
-              </button>
+
+              <a
+                href={calendlyUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-block px-6 py-3 bg-white text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition-colors"
+              >
+                Book a Discovery Call
+              </a>
             </div>
           </div>
         </div>
