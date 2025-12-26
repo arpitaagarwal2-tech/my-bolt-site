@@ -38,7 +38,7 @@ export default function Navigation() {
       ? "/logo-main.png"     // blue logo on white navbar
       : "/logo-white.png"    // white logo on dark hero
   }
-  alt="Bright Ledger Solutions"
+  //alt="Bright Ledger Solutions"
   className="h-10 w-auto"
 />
 
