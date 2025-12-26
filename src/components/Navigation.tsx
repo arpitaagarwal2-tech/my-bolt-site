@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, TrendingUp } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,7 +31,19 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center space-x-2 cursor-pointer" onClick={() => scrollToSection('hero')}>
-            <TrendingUp className={`h-8 w-8 ${isScrolled ? 'text-blue-600' : 'text-white'}`} />
+        
+		<img
+  src={
+    isScrolled
+      ? "/logo-main.png"     // blue logo on white navbar
+      : "/logo-white.png"    // white logo on dark hero
+  }
+  alt="Bright Ledger Solutions"
+  className="h-10 w-auto"
+/>
+
+
+		
             <span className={`text-xl font-bold ${isScrolled ? 'text-gray-900' : 'text-white'}`}>
               Bright Ledger Solutions
             </span>
