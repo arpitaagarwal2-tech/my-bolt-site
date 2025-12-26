@@ -32,7 +32,7 @@ export default function Navigation() {
           <div className="flex items-center space-x-2 cursor-pointer" onClick={() => scrollToSection('hero')}>
             <TrendingUp className={`h-8 w-8 ${isScrolled ? 'text-blue-600' : 'text-white'}`} />
             <span className={`text-xl font-bold ${isScrolled ? 'text-gray-900' : 'text-white'}`}>
-              Bright Ledger
+              Bright Ledger Solutions
             </span>
           </div>
 
