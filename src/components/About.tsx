@@ -5,12 +5,12 @@ export default function About() {
     {
       icon: Target,
       title: 'Precision',
-      description: 'Delivering accurate, reliable solutions that eliminate errors and enhance financial control.',
+      description: 'Clean, precise bookkeeping that keeps your financial data accurate and compliant.',
     },
     {
       icon: Users,
       title: 'Partnership',
-      description: 'Working closely with clients to understand unique needs and deliver tailored solutions.',
+      description: 'Personalized support designed around your business goals and day-to-day needs.',
     },
     {
       icon: Award,
@@ -19,8 +19,8 @@ export default function About() {
     },
     {
       icon: TrendingUp,
-      title: 'Innovation',
-      description: 'Leveraging cutting-edge AI technology to stay ahead of industry trends and challenges.',
+      title: 'Insightful',
+      description: 'Clear reporting and financial visibility.',
     },
   ];
 
@@ -33,11 +33,9 @@ export default function About() {
               Reimagining Financial Operations
             </h2>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Bright Ledger Solutions combines decades of financial expertise with advanced artificial intelligence to deliver transformative results for businesses of all sizes.
-            </p>
+            Bright Ledger Solutions was founded to help small businesses gain clarity, control, and confidence in their finances. With hands-on expertise in bookkeeping, accounts payable, and accounts receivable, we work as a seamless extension of our clients’ finance teams—ensuring accuracy, efficiency, and peace of mind.            </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Our mission is to empower finance teams to focus on strategic initiatives by automating routine tasks, providing actionable insights, and ensuring compliance across all operations.
-            </p>
+              Our mission is to empower businesses and finance teams to focus on what matters most—growth and strategy—by streamlining routine financial processes and ensuring accuracy and compliance across all operations.            </p>
 
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
