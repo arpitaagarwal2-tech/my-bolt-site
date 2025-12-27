@@ -4,9 +4,9 @@ export default function Services() {
   const services = [
     {
       icon: Receipt,
-      title: 'AP Optimization',
-      description: 'Streamline invoice processing with AI-powered data extraction, validation, and approval workflows.',
-      features: ['Invoice Scanning', 'Auto-matching', 'Payment Scheduling'],
+      title: 'Accounts Payable (AP) Services',
+      description: 'Reliable vendor bill processing to ensure timely payments and accurate records.',
+      features: ['Vendor Invoice Entry', 'Bill Tracking & Scheduling', 'Payment Support', 'AP Reconciliation'],
     },
     {
       icon: FileText,
