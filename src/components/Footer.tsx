@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
@@ -14,7 +16,7 @@ export default function Footer() {
               <img
                 src="/logo-white.png"
                 alt="Bright Ledger Solutions"
-                className="h-8 w-auto"
+                className="h-10 w-auto"
               />
               <span className="text-base font-semibold text-white">
                 Bright Ledger Solutions
@@ -27,15 +29,29 @@ export default function Footer() {
 
           {/* Policy links */}
           <div className="flex space-x-6 text-sm">
-            <a href="#" className="hover:text-blue-400 transition-colors">
+            <Link
+              to="/privacy-policy"
+              className="hover:text-blue-400 transition-colors"
+            >
               Privacy Policy
-            </a>
-            <a href="#" className="hover:text-blue-400 transition-colors">
+            </Link>
+
+            <Link
+              to="/terms"
+              className="hover:text-blue-400 transition-colors"
+            >
               Terms of Service
-            </a>
-            <a href="#" className="hover:text-blue-400 transition-colors">
+            </Link>
+
+            {/* Optional: add later when page exists */}
+            {/*
+            <Link
+              to="/cookie-policy"
+              className="hover:text-blue-400 transition-colors"
+            >
               Cookie Policy
-            </a>
+            </Link>
+            */}
           </div>
         </div>
 
