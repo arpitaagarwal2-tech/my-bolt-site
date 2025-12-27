@@ -82,7 +82,7 @@ export default function TermsOfService() {
             <p className="mt-3">
               Questions about these Terms? Email{" "}
               <a className="text-blue-600 hover:underline" href="mailto:info@brightledgersolutions.org">
-                info@brightledgersolutions.org
+                 brightledgersolutions@gmail.com
               </a>.
             </p>
           </div>
