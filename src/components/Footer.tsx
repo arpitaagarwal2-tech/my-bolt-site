@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
       <img src='/logo-white.png' className="h-10 w-auto" />
-<span className="text-xl font-bold text-white">Bright Ledger</span>
+<span className="text-xl font-bold text-white">Bright Ledger Solutions</span>
             </div>
             <p className="text-gray-400 mb-4 max-w-md">
               Empowering businesses to achieve excellence in financial management.
