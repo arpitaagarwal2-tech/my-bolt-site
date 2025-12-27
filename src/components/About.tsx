@@ -35,12 +35,12 @@ export default function About() {
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
             Bright Ledger Solutions was founded to help small businesses gain clarity, control, and confidence in their finances. With hands-on expertise in bookkeeping, accounts payable, and accounts receivable, we work as a seamless extension of our clients’ finance teams—ensuring accuracy, efficiency, and peace of mind.            </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Our mission is to empower businesses and finance teams to focus on what matters most—growth and strategy—by streamlining routine financial processes and ensuring accuracy and compliance across all operations.            </p>
+            Our mission is to empower businesses and finance teams to focus on what matters most—growth and strategy—by streamlining routine financial processes and ensuring accuracy and compliance across all operations.            </p>
 
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
                 <div className="flex-shrink-0 h-12 w-12 bg-blue-100 rounded-lg flex items-center justify-center">
-                  <span className="text-2xl font-bold text-blue-600">15+</span>
+                  <span className="text-2xl font-bold text-blue-600">8+</span>
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Years of Expertise</h4>
@@ -50,7 +50,7 @@ export default function About() {
 
               <div className="flex items-start space-x-4">
                 <div className="flex-shrink-0 h-12 w-12 bg-emerald-100 rounded-lg flex items-center justify-center">
-                  <span className="text-2xl font-bold text-emerald-600">200+</span>
+                  <span className="text-2xl font-bold text-emerald-600">20+</span>
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Successful Implementations</h4>
