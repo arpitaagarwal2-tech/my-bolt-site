@@ -94,11 +94,6 @@ export default function PrivacyPolicy() {
               </a>.
             </p>
           </div>
-
-          <p className="text-xs text-gray-500">
-            Disclaimer: This template is provided for general informational purposes and does not
-            constitute legal advice.
-          </p>
         </div>
       </section>
     </main>
