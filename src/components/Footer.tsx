@@ -15,7 +15,7 @@ export default function Footer() {
             <p className="text-gray-400 mb-4 max-w-md">
               Empowering businesses to achieve excellence in financial management.
             </p>
-            <div className="flex space-x-4">
+            {/*   <div className="flex space-x-4">
               <a href="#" className="h-10 w-10 bg-slate-800 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
@@ -25,7 +25,7 @@ export default function Footer() {
               <a href="#" className="h-10 w-10 bg-slate-800 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-colors">
                 <Mail className="h-5 w-5" />
               </a>
-            </div>
+            </div> */}
           </div>
 
           <div>
