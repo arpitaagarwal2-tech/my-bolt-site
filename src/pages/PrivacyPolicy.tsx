@@ -90,7 +90,7 @@ export default function PrivacyPolicy() {
             <p className="mt-3">
               If you have questions about this Privacy Policy, contact us at{" "}
               <a className="text-blue-600 hover:underline" href="mailto:info@brightledgersolutions.org">
-                info@brightledgersolutions.org
+                brightledgersolutions@gmail.com
               </a>.
             </p>
           </div>
