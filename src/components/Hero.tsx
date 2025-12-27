@@ -44,20 +44,6 @@ export default function Hero() {
               Learn More
             </button>
           </div>
-
-          <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
-            {[
-              { label: 'Cost Reduction', value: '40%' },
-              { label: 'Faster Processing', value: '3x' },
-              { label: 'Error Rate', value: '-95%' },
-              { label: 'Client Satisfaction', value: '98%' },
-            ].map((stat) => (
-              <div key={stat.label} className="text-center">
-                <div className="text-3xl md:text-4xl font-bold text-blue-400 mb-2">{stat.value}</div>
-                <div className="text-sm text-gray-400">{stat.label}</div>
-              </div>
-            ))}
-          </div>
         </div>
       </div>
 
