@@ -9,11 +9,10 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div className="md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <TrendingUp className="h-8 w-8 text-blue-500" />
-              <span className="text-xl font-bold text-white">Bright Ledger</span>
+      <img src='/logo-main.png' className="h-8 w-8" />
+<span className="text-xl font-bold text-white">Bright Ledger</span>
             </div>
             <p className="text-gray-400 mb-4 max-w-md">
-              Transforming financial operations through AI-powered AP & AR consulting solutions.
               Empowering businesses to achieve excellence in financial management.
             </p>
             <div className="flex space-x-4">
