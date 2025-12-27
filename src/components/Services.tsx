@@ -10,33 +10,15 @@ export default function Services() {
     },
     {
       icon: FileText,
-      title: 'AR Optimization',
-      description: 'Accelerate cash flow with intelligent collections, automated reminders, and predictive analytics.',
-      features: ['Smart Collections', 'Credit Analysis', 'Cash Forecasting'],
-    },
-    {
-      icon: Brain,
-      title: 'AI-Powered Insights',
-      description: 'Leverage machine learning to identify patterns, predict trends, and optimize financial decisions.',
-      features: ['Predictive Analytics', 'Anomaly Detection', 'Smart Reporting'],
+      title: 'Accounts Receivable (AR) Services',
+      description: 'Improve cash flow with organized invoicing and receivable tracking.',
+      features: ['Customer Invoicing', 'Payment Posting', 'AR Aging Reports', 'Follow-up Support'],
     },
     {
       icon: BarChart3,
-      title: 'Financial Analytics',
-      description: 'Real-time dashboards and comprehensive reports to track performance and drive strategic decisions.',
-      features: ['Custom Dashboards', 'KPI Tracking', 'Trend Analysis'],
-    },
-    {
-      icon: Zap,
-      title: 'Process Integration',
-      description: 'Seamlessly connect with your existing ERP, accounting, and banking systems for unified operations.',
-      features: ['ERP Integration', 'API Connectivity', 'Data Sync'],
-    },
-    {
-      icon: Shield,
-      title: 'Compliance & Security',
-      description: 'Ensure regulatory compliance and protect sensitive financial data with enterprise-grade security.',
-      features: ['Audit Trails', 'Role-Based Access', 'Data Encryption'],
+      title: 'Bookkeeping Services',
+      description: 'Monthly and ongoing bookkeeping to keep your financial records accurate, organized, and up to date.',
+      features: ['Transaction Categorization', 'Bank & Credit Card Reconciliations', 'Monthly Financial Statements', 'QuickBooks & Xero Setup and Cleanup'],
     },
   ];
 
