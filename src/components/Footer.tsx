@@ -17,33 +17,6 @@ export default function Footer() {
             </p>
           </div>
 
-          <div>
-            <h3 className="text-white font-semibold mb-4">Quick Links</h3>
-            <ul className="space-y-2">
-              {['Services', 'About', 'Contact', 'Demo'].map((item) => (
-                <li key={item}>
-                  <a href="#" className="hover:text-blue-400 transition-colors">
-                    {item}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-white font-semibold mb-4">Services</h3>
-            <ul className="space-y-2">
-              {['AP Automation', 'AR Optimization', 'AI Analytics', 'Integration'].map((item) => (
-                <li key={item}>
-                  <a href="#" className="hover:text-blue-400 transition-colors">
-                    {item}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-
         <div className="border-t border-slate-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm text-gray-400">
