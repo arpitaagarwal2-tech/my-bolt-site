@@ -19,17 +19,6 @@ function Home() {
       <Services />
       <About />
       <FAQ />
-
-      {/* FAQ → Contact CTA */}
-      <section className="bg-blue-50 py-10">
-        <div className="max-w-5xl mx-auto px-4 text-center">
-          <p className="text-lg md:text-xl text-slate-800 font-medium">
-            Not sure which service you need? Send us a message — we’ll recommend
-            the right next step for your business.
-          </p>
-        </div>
-      </section>
-
       <Contact />
     </>
   );
@@ -53,4 +42,4 @@ function App() {
   );
 }
 
-export default App;
+export default A
