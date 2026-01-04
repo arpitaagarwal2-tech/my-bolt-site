@@ -79,15 +79,6 @@ export default function FAQ() {
             );
           })}
         </div>
-
-        <div className="mt-10 text-center">
-          <a
-            href="#contact"
-            className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-colors"
-          >
-            Still have questions? Contact us
-          </a>
-        </div>
       </div>
     </section>
   );
